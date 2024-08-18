@@ -1,6 +1,4 @@
-# ai-web
-  web端 实现AI智能助手，h5端源码在https://github.com/sjbhz/ai-h5
-
+# qrobot-web
 ### 准备工作
 ```
 1、自行安装 需要先 npm i @microsoft/fetch-event-source 
@@ -18,6 +16,10 @@
 ```
  npm run dev
 ```
+### 项目部署
+项目部署为 子路径部署方式
 
-### 预览效果
-![images]('./public/ai_web_view.png')
+### 说明
+#### 1、rightAI0文件 vue2实现 仅支持智能问答
+#### 2、rightAI1文件 vue2实现 支持智能问答、文件上传总结md展示；其中md展示使用v-md-preview（@kangc/v-md-editor组件）
+#### 3、rightAI文件 vue3实现 支持智能问答、文件上传总结md展示；其中md展示使用md-editor-v3组件，直接引入MdPreview会有流式效果。
